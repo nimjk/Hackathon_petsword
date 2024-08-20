@@ -6,7 +6,7 @@
     android:background="@color/ic_launcher_background">
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/imageButton12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="150dp"
@@ -15,7 +15,7 @@
         android:src="@drawable/ellipse_7" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/imageButton13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="208dp"
@@ -24,7 +24,7 @@
         android:src="@drawable/ellipse_7" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/imageButton14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="266dp"
@@ -64,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="91dp"
-        android:layout_y="342dp"
+        android:layout_y="344dp"
         android:background="#00ff0000"
         android:src="@drawable/ellipse_7" />
 </AbsoluteLayout>
