@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9D965">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        tools:ignore='tools:ignore="SpeakableTextPresentCheck"'
+        android:layout_width="77dp"
+        android:layout_height="52dp"
+        android:layout_x="309dp"
+        android:layout_y="63dp"
+        android:background="#00FF0000"
+        android:src="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        tools:ignore='tools:ignore="SpeakableTextPresentCheck"'
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:layout_x="28dp"
+        android:layout_y="59dp"
+        android:background="#00ff0000"
+        android:src="@drawable/arrow_left" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="427dp"
+        android:src="@drawable/short_white_box" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_x="110dp"
+        android:layout_y="428dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:hint="아빠"
+        android:inputType="text"
+        tools:ignore='tools:ignore="SpeakableTextPresentCheck"' />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="281dp"
+        android:src="@drawable/join_releation" />
+</AbsoluteLayout>
