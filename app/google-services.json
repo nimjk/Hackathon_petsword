@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "582416135869",
+    "project_id": "pet-s-word",
+    "storage_bucket": "pet-s-word.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582416135869:android:2142286bdd0119e31aa9d4",
+        "android_client_info": {
+          "package_name": "com.kisia.pets_word"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO_3pvbxiDrS4htDjGLw4KDNz4KZXhccc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582416135869:android:0a0cd7063aac2a0f1aa9d4",
+        "android_client_info": {
+          "package_name": "com.kisia.petsword"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO_3pvbxiDrS4htDjGLw4KDNz4KZXhccc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
