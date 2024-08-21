@@ -2,4 +2,8 @@
 <resources>
 
     <style name="Theme.Pets_word" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
 </resources>

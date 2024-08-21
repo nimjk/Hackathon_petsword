@@ -6,7 +6,7 @@
     android:background="@color/ic_launcher_background">
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/backward"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="30dp"
@@ -15,7 +15,7 @@
         android:src="@drawable/arrow_left" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="332dp"
@@ -24,7 +24,6 @@
         android:src="@drawable/next" />
 
     <ImageView
-        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="36dp"
@@ -32,7 +31,6 @@
         android:src="@drawable/fast_finger" />
 
     <ImageView
-        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="38dp"
@@ -40,7 +38,6 @@
         android:src="@drawable/finger_text" />
 
     <ImageView
-        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="62dp"
@@ -48,7 +45,7 @@
         android:src="@drawable/joinfinger_gray" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/next_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="39dp"
@@ -57,7 +54,7 @@
         android:src="@drawable/nexttime" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/agreement_fingerprint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="226dp"
@@ -66,7 +63,6 @@
         android:src="@drawable/agreement_fingerprint" />
 
     <ImageView
-        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="162dp"

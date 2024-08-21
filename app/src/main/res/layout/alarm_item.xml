@@ -2,66 +2,67 @@
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/gray_gradient"
     android:padding="16dp">
 
     <TextView
         android:id="@+id/event"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="심장사상충"
-        android:textSize="16sp"
-        android:lineHeight="20sp"
-        android:layout_y="17dp"
         android:layout_x="17dp"
+        android:layout_y="17dp"
         android:fontFamily="@font/suite_bold"
-        android:textColor="@color/black"/>
+        android:lineHeight="20sp"
+        android:text="심장사상충"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
-        android:layout_y="62dp"
         android:layout_x="17dp"
-        android:text="09.20"
-        android:textSize="16sp"
+        android:layout_y="62dp"
         android:fontFamily="@font/suite_bold"
-        android:textColor="@color/black"/>
+        android:text="09.20"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/term"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:lineHeight="15sp"
-        android:layout_y="61dp"
         android:layout_x="91dp"
-        android:text="한 달"
-        android:textSize="12sp"
+        android:layout_y="61dp"
         android:fontFamily="@font/suite_bold"
-        android:textColor="@color/black"/>
+        android:lineHeight="15sp"
+        android:text="한 달"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/timezone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_y="53dp"
         android:layout_x="117dp"
-        android:text="오전"
-        android:textSize="25sp"
+        android:layout_y="53dp"
         android:fontFamily="@font/suite_bold"
-        android:textColor="@color/black"/>
+        android:text="오전"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_y="19dp"
         android:layout_x="170dp"
-        android:textSize="60sp"
-        android:text="09:00"
+        android:layout_y="19dp"
         android:fontFamily="@font/suite_bold"
         android:lineHeight="75sp"
-        android:textColor="@color/black"/>
+        android:text="09:00"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
 
 
 </AbsoluteLayout>

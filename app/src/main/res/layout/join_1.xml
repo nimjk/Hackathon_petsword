@@ -7,7 +7,7 @@
     android:background="#F9D965">
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/next"
         android:layout_width="77dp"
         android:layout_height="52dp"
         android:layout_x="309dp"
@@ -17,7 +17,7 @@
         tools:ignore='tools:ignore="SpeakableTextPresentCheck"' />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backward"
         android:layout_width="50dp"
         android:layout_height="53dp"
         android:layout_x="28dp"
@@ -27,7 +27,6 @@
         tools:ignore='tools:ignore="SpeakableTextPresentCheck"' />
 
     <ImageView
-        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="73dp"
@@ -35,7 +34,7 @@
         android:src="@drawable/join3_text" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/add_picture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="130dp"

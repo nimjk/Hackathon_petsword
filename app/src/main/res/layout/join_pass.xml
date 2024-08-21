@@ -5,8 +5,17 @@
     android:layout_height="match_parent"
     android:background="@color/ic_launcher_background">
 
-    <ImageButton
-        android:id="@+id/imageButton12"
+    <ImageView
+        android:id="@+id/firstnum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="344dp"
+        android:background="#00ff0000"
+        android:src="@drawable/ellipse_7" />
+
+    <ImageView
+        android:id="@+id/secondnum2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="150dp"
@@ -14,8 +23,8 @@
         android:background="#00ff0000"
         android:src="@drawable/ellipse_7" />
 
-    <ImageButton
-        android:id="@+id/imageButton13"
+    <ImageView
+        android:id="@+id/thirdnum2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="208dp"
@@ -23,8 +32,8 @@
         android:background="#00ff0000"
         android:src="@drawable/ellipse_7" />
 
-    <ImageButton
-        android:id="@+id/imageButton14"
+    <ImageView
+        android:id="@+id/fourthnum2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="266dp"
@@ -33,7 +42,7 @@
         android:src="@drawable/ellipse_7" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/backward"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="25dp"
@@ -42,7 +51,7 @@
         android:src="@drawable/arrow_left" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="326dp"
@@ -50,7 +59,7 @@
         android:background="#00ff0000"
         android:src="@drawable/next" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,12 +68,4 @@
         android:background="#00ff0000"
         android:src="@drawable/plz_passwd" />
 
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="91dp"
-        android:layout_y="344dp"
-        android:background="#00ff0000"
-        android:src="@drawable/ellipse_7" />
 </AbsoluteLayout>

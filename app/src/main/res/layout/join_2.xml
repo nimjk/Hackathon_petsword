@@ -7,7 +7,7 @@
     android:background="#F9D965">
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/next"
         android:layout_width="77dp"
         android:layout_height="52dp"
         android:layout_x="309dp"
@@ -17,7 +17,7 @@
         tools:ignore='tools:ignore="SpeakableTextPresentCheck"' />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backward"
         tools:ignore='tools:ignore="SpeakableTextPresentCheck"'
         android:layout_width="50dp"
         android:layout_height="53dp"
@@ -27,7 +27,6 @@
         android:src="@drawable/arrow_left" />
 
     <ImageView
-        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="127dp"
@@ -35,7 +34,6 @@
         android:src="@drawable/join_name_text" />
 
     <ImageView
-        android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="103dp"
@@ -43,7 +41,7 @@
         android:src="@drawable/short_white_box" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/pet_name"
         android:layout_width="wrap_content"
         android:layout_height="58dp"
         android:layout_x="110dp"
@@ -51,6 +49,7 @@
         android:background="#00FFFFFF"
         android:ems="10"
         android:hint="제리"
-        android:inputType="text" />
+        android:inputType="text"
+        android:textAlignment="center"/>
 
 </AbsoluteLayout>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_x="0dp"
@@ -8,15 +9,7 @@
     android:background="#F9D965">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="36dp"
-        android:layout_height="38dp"
-        android:layout_x="209dp"
-        android:layout_y="315dp"
-        android:src="@drawable/ellipse_7" />
-
-    <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/firstnum"
         android:layout_width="36dp"
         android:layout_height="38dp"
         android:layout_x="107dp"
@@ -24,7 +17,7 @@
         android:src="@drawable/ellipse_7" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/secondnum"
         android:layout_width="36dp"
         android:layout_height="38dp"
         android:layout_x="161dp"
@@ -32,7 +25,15 @@
         android:src="@drawable/ellipse_7" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/thirdnum"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        android:layout_x="209dp"
+        android:layout_y="315dp"
+        android:src="@drawable/ellipse_7" />
+
+    <ImageView
+        android:id="@+id/fourthnum"
         android:layout_width="36dp"
         android:layout_height="38dp"
         android:layout_x="261dp"
@@ -40,7 +41,6 @@
         android:src="@drawable/ellipse_7" />
 
     <ImageView
-        android:id="@+id/imageView4"
         android:layout_width="199dp"
         android:layout_height="147dp"
         android:layout_x="106dp"
@@ -48,7 +48,7 @@
         android:src="@drawable/plz_passwd" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backward"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="28dp"
@@ -56,4 +56,19 @@
         android:background="#00ff0000"
         android:src="@drawable/arrow_left" />
 
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_x="108dp"
+        android:layout_y="300dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/transparent" />
 </AbsoluteLayout>

@@ -7,21 +7,20 @@
     android:background="#F9D965">
 
     <ImageView
-        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="44dp"
         android:layout_y="281dp"
         android:src="@drawable/notice"
-        tools:ignore='tools:ignore="SpeakableTextPresentCheck"' />
+        />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/check_ip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="113dp"
-        android:layout_y="440dp"
+        android:layout_x="102dp"
+        android:layout_y="438dp"
         android:background="#00FF0000"
         android:src="@drawable/check"
-        tools:ignore='tools:ignore="SpeakableTextPresentCheck"' />
+        />
 </AbsoluteLayout>
