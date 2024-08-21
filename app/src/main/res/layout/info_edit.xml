@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/ic_launcher_background"
+        android:src="@drawable/info_edit_top" />
+
+    <ImageButton
+        android:id="@+id/finish"
+        android:layout_width="77dp"
+        android:layout_height="52dp"
+        android:layout_x="309dp"
+        android:layout_y="63dp"
+        android:background="#00FF0000"
+        android:src="@drawable/finish" />
+
+    <ImageButton
+        android:id="@+id/backward"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:layout_x="28dp"
+        android:layout_y="59dp"
+        android:background="#00ff0000"
+        android:src="@drawable/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/change_img"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_x="145dp"
+        android:layout_y="169dp"
+        android:background="#00FFFFFF"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="324dp"
+        android:src="@drawable/long_white_box" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="466dp"
+        android:src="@drawable/long_white_box" />
+
+    <EditText
+        android:id="@+id/edit_relation"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_x="64dp"
+        android:layout_y="324dp"
+        android:ems="10"
+        android:hint="관계"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/pet_name"
+        android:layout_width="292dp"
+        android:layout_height="50dp"
+        android:layout_x="70dp"
+        android:layout_y="466dp"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+
+</AbsoluteLayout>

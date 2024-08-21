@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/ic_launcher_background"
+        android:src="@drawable/info_int_top" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="150dp"
+        android:src="@drawable/alarm_name" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="190dp"
+        android:src="@drawable/long_white_box" />
+
+    <EditText
+        android:id="@+id/alarm_name"
+        android:layout_width="296dp"
+        android:layout_height="50dp"
+        android:layout_x="57dp"
+        android:layout_y="194dp"
+        android:ems="10"
+        android:hint="알람 이름"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/term_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="254dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/_weeks" />
+
+    <TextView
+        android:id="@+id/today_text"
+        android:layout_width="164dp"
+        android:layout_height="37dp"
+        android:layout_x="121dp"
+        android:layout_y="319dp"
+        android:fontFamily="@font/suite_bold"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <ImageButton
+        android:id="@+id/backward"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:layout_x="28dp"
+        android:layout_y="59dp"
+        android:background="#00ff0000"
+        android:src="@drawable/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/finish"
+        android:layout_width="77dp"
+        android:layout_height="52dp"
+        android:layout_x="309dp"
+        android:layout_y="63dp"
+        android:background="#00FF0000"
+        android:src="@drawable/finish" />
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="77dp"
+        android:layout_y="369dp"
+        android:timePickerMode="spinner"/>
+
+</AbsoluteLayout>
